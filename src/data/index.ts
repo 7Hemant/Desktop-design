@@ -21,11 +21,12 @@ export const interactiveFeatures = [
   },
 ];
 
-export const plan = [
+export const plans = [
   {
-    heading: "",
-    description: "",
-    price: "",
+    heading: "Basic Plan",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting",
+    price: 54,
     features: [
       "Free access to video class",
       "Free access to video class",
@@ -34,9 +35,10 @@ export const plan = [
     buttonTitle: "Start free Trial",
   },
   {
-    heading: "",
-    description: "",
-    price: "",
+    heading: "Premium Plan",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting",
+    price: 54,
     features: [
       "Free access to video class",
       "Free access to video class",
@@ -45,9 +47,10 @@ export const plan = [
     buttonTitle: "Start free Trial",
   },
   {
-    heading: "",
-    description: "",
-    price: "",
+    heading: "Basic Plan",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting",
+    price: 54,
     features: [
       "Free access to video class",
       "Free access to video class",
@@ -57,7 +60,7 @@ export const plan = [
   },
 ];
 
-export const Review = [
+export const Reviews = [
   {
     name: "Lolla Smith",
     company: "Microsoft",

@@ -1,7 +1,16 @@
-import React from "react";
-
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <header className="flex justify-between items-center capitalize h-[5rem]">
+      <div>logo</div>
+      <nav>
+        <ul className="flex space-x-[117px] items-center">
+          <li>About</li>
+          <li>Pricing</li>
+          <li>Review</li>
+        </ul>
+      </nav>
+    </header>
+  );
 };
 
 export default Header;
