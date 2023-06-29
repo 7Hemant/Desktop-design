@@ -1,0 +1,7 @@
+.clipPath {
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+
+.clipPathFooter {
+  clip-path: polygon(0 60%, 100% 0, 100% 100%, 0% 100%);
+}

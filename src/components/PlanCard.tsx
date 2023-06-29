@@ -17,8 +17,8 @@ const PlanCard = ({
 }: PlanCard) => {
   return (
     <div
-      className={`border rounded-[10px] border-[#7A3199] py-[35px] px-[27px] space-y-[24px]  ${
-        heading === "Premium Plan" ? "bg-[#7A3199] text-[#eee] " : ""
+      className={`z-50 border rounded-[10px] border-[#7A3199] py-[35px] px-[27px] space-y-[24px]  ${
+        heading === "Premium Plan" ? "bg-[#7A3199] text-[#eee] " : " bg-[#fff]"
       }`}
     >
       <h1 className="font-bold">{heading}</h1>
