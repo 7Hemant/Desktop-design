@@ -17,7 +17,7 @@ function App() {
       <img
         src={backgroundImage}
         alt=""
-        className="absolute left-0 right-0 bottom-[-67rem]"
+        className="absolute left-0 right-0 bottom-[-67rem] "
       />
 
       <div className="-z-50">
@@ -46,7 +46,7 @@ function App() {
             <img src={MainImage} alt="" />
           </div>
         </section>
-        <section className="flex space-x-[7rem] mt-[11.5rem] ">
+        <section className="flex space-x-[7rem] mt-[11.5rem] " id="about">
           <div className="grid grid-cols-2 gap-4 ">
             {interactiveFeatures?.map((item, index: any) => (
               <div
@@ -72,7 +72,7 @@ function App() {
             <Button label="Explore Now" />
           </div>
         </section>
-        <section className="mt-[9rem] relative">
+        <section className="mt-[9rem] relative" id="price">
           <div className="mx-auto mb-[155px]">
             <h1 className="text-[2rem] font-bold mx-auto w-max">
               Choose your plan
@@ -96,7 +96,7 @@ function App() {
             ))}
           </div>
         </section>
-        <section className="mt-[95px] overflow-hidden">
+        <section className="mt-[95px] overflow-hidden" id="review">
           <div className="space-y-[24px]">
             <h1 className="text-[40px] font-bold">Review from customers</h1>
             <p className="w-[399px] text-[12px]">
@@ -115,8 +115,16 @@ function App() {
               />
             ))}
           </div>
+          <div className="flex justify-center space-x-4 mt-5 ">
+            {Reviews.map((index: any) => (
+              <div
+                key={index}
+                className=" h-4 w-4 hover:bg-[#8E54E9] bg-[#eee] rounded-full"
+              />
+            ))}
+          </div>
         </section>
-        <section className=" w-full  mx-auto grid place-content-center text-center mt-[8rem] ">
+        <section className=" w-full  mx-auto grid place-content-center text-center mt-[rem] ">
           <h1 className="mx-auto w-max text-[2rem] font-bold mb-[1.5rem]">
             We have what you’re looking for
           </h1>
