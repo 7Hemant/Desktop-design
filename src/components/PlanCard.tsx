@@ -1,5 +1,3 @@
-import React from "react";
-
 interface PlanCard {
   heading: String;
   description: String;

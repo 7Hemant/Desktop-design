@@ -3,11 +3,11 @@ import { BsFillStarFill } from "react-icons/bs";
 interface ReviewCard {
   name: String;
   company: String;
-  star: Number;
+  star?: Number;
   description: String;
 }
 
-const ReviewCard = ({ name, company, star, description }: ReviewCard) => {
+const ReviewCard = ({ name, company, description }: ReviewCard) => {
   return (
     <div
       className={` cursor-pointer px-[48px] py-[36px] border-[.5px] border-[#7a319933] rounded-[10px]  hover:shadow-2xl`}
